@@ -24,4 +24,4 @@ def scrape():
 #.update(query_parameter, data, options)
 
 if __name__ == "__main__":
-   app.run()
+   app.run(debug=True)
