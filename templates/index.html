@@ -33,7 +33,7 @@
           </div>
         </div>
       </div>
-      
+
       <!-- Section for Featured Image and Facts table -->
       <div class="row" id="mars-featured-image">
         <div class="col-md-3">
@@ -55,7 +55,7 @@
       <!-- Section for Mars Hemisphere Images -->
       <div class="row" id="hemispheres">
         <div class="page-header">
-          <h2>class = "text-center">Mars Hemispheres!</h2>
+          <h2 class= "text-center">Mars Hemispheres! </h2>
         </div>
 
         {% for image in mars.images_mars %}
@@ -63,7 +63,7 @@
             <div class ="thumbnail">
               <img src="{{mars.images_mars}}" default('static/images/error.png', true) }} alt="..." class="img-circle">
               <div class="caption">
-                  <h3>{{hemisphere.title}}</h3>
+                  <h3>{{image.title}}</h3>
               </div>
             </div>
           </div>
